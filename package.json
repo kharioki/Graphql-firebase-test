@@ -1,0 +1,10 @@
+{
+  "name": "firebase-test",
+  "version": "1.0.0",
+  "description": "a test firebase-graphql app",
+  "main": "index.js",
+  "repository": "https://github.com/kharioki/Graphql-firebase-test",
+  "author": "kharioki",
+  "license": "MIT",
+  "private": false
+}
