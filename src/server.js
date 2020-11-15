@@ -13,7 +13,7 @@ const firebaseClient = firebase.initializeApp({
   authDomain: process.env.FIREBASE_AUTH_DOMAIN,
   databaseURL: process.env.FIREBASE_DATABASE_URL,
   projectId: process.env.FIREBASE_PROJECT_ID
-  });
+});
 
 const server = new ApolloServer({
   typeDefs,
@@ -23,7 +23,8 @@ const server = new ApolloServer({
       headers: req.headers,
       firebaseClient
     };
-  }
+  },
+  playground: true
 });
 
 server.applyMiddleware({ app });
