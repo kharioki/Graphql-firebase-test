@@ -6,5 +6,17 @@
   "repository": "https://github.com/kharioki/Graphql-firebase-test",
   "author": "kharioki",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "apollo-server-express": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^8.0.2",
+    "graphql": "^15.4.0"
+  }
 }
